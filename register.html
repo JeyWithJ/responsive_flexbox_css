@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro de Nuevo Usuario</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 640px)">
+  <link rel="stylesheet" href="tablet.css" media="screen and (min-width: 640px) and (max-width: 1280px)">
+  <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 1280px)">
+</head>
+<body background="./assets/Img/background.png">
+    <section class="contenedor">
+        <div class="contenedor__titulo">
+            <div class="contenedor__mensaje">
+
+                <h2 class="new-account-text"> Crear una nueva cuenta</h2>
+
+                <div class="form__contenedoriconos">
+                    <div class="form__iconos">
+                      <i class='bx bxl-facebook-square'></i>
+                    </div>
+                    <div class="form__iconos">
+                      <i class='bx bxl-google'></i>
+                    </div>
+                    <div class="form__iconos">
+                      <i class='bx bxl-github'></i>
+                    </div>
+                  </div>
+                  <form action="/login.html" class="form">
+                    <input class="datos" required id="nombre" type="text" placeholder="Nombre">
+                    <input class="datos" required id="email" type="email" placeholder="Email">
+                    <input class="datos" required id="contrasenia" type="password" placeholder="Contraseña">
+                    <button id="form__button" type="submit" class="login-buttom">Registrarse</button>
+                  </form>
+
+            </div>
+        </div>
+    </section>
+
+
+</body>
+</html>
